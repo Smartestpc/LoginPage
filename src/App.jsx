@@ -18,7 +18,7 @@ function App() {
     navigate('/dashboard', {state: formData.username})
   }
   return (
-    <div className='w-full h-screen bg-gray-900 grid place-items-center'>
+    <div className='w-full h-screen bg-[#242424] grid place-items-center'>
       <div className="w-[300px] h-[400px] shadow-2xl rounded-md shadow-white text-white bg-black">
         <h1 className='text-3xl font-bold uppercase text-center mt-1 h-1/10'>Login Page</h1>
         <form onSubmit={forSubmit} className='w-full h-9/10 flex flex-col gap-5 items-center justify-center'>
